@@ -1,0 +1,46 @@
+html,
+body{
+    font-family: 'Arial', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #fffbea;
+    color:#333;
+}
+header{
+    background-color:#79a3b1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+main{
+    width:50%;
+    margin:20px auto;
+}
+.introduction,.ingredients,
+.instructions{
+   background-color:#f8f8f8;
+   margin-bottom: 20px;
+   padding:15px;
+   border-radius: 5px;
+   box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+.ingredients h2,
+.instructions h2{
+    color:#b3568f;
+}
+ul, ol{
+    margin-left: 20px;
+}
+footer{
+  background-color:#79a3b1;
+  text-align: center;
+  padding: 20px 0;
+  margin: 10px;
+  color:white;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
